@@ -20,6 +20,7 @@ function Header() {
             <h3 className='content_2'>- CNET</h3>
             <h4 className='content_3'>From current episodes and original series, to kids shows and hit movies,</h4>
             <h4 className='content_4'>and hit movies, Hulu has something for everyone.</h4>
+            <button className='free_button'>TRY UP TO ONE MONTH FREE</button>
         </div>
          </div>
   )

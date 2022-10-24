@@ -65,3 +65,20 @@
 .content_2{
     padding-top: 20px;
 }
+
+.header_content > button{
+    background-color: #00F387;
+    color: #212121;;
+    font-weight: bold;
+    border: #00F387;
+    padding: 20px;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    border-radius: 4px;
+    /* width:100px; */
+    height: 48px;
+    /* min-width: 64px; */
+}
