@@ -4,7 +4,7 @@ import './header.css';
 function Header() {
   return (
     <div className = 'Header' style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2),
+        backgroundImage: `linear-gradient(rgba(34, 34, 34, 0.2),
                        rgba(0, 0, 0, 0.1)), url("https://raw.githubusercontent.com/bradtraversy/hulu-webpage-clone/main/img/header.jpg")`,
         backgroundPosition: "center center",
         backgroundSize: "cover",

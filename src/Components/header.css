@@ -15,7 +15,6 @@
     height: 350px !important;
     justify-content: center !important;
     align-items: center !important;
-    
    }
    .alert_text{
     display: block!important;
@@ -59,6 +58,8 @@
     display: flex;
     justify-content: space-between;
     margin: 30px;
+    /* border: 1px solid red; */
+
     
    
 }
@@ -77,6 +78,7 @@
     cursor: pointer;
     transition: transform 100ms ;
     opacity: 0.5;
+    margin-right: 10px;
 }
 
 .login:hover{
@@ -107,7 +109,8 @@
 .header_content > .content_2{
     font-family: 'Graphik Web', 'Graphik', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
+
 }
 
 .header_content > .content_3{
