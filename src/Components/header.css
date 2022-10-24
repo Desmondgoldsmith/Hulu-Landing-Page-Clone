@@ -1,7 +1,43 @@
+/* media queries */
+@media only screen and (max-width: 788px) {
+    .header_content > button{
+        width:580px !important;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .header_content > button{
+        width:320px !important;
+    }
+}
+@media only screen and (max-width: 850px) {
+   .alert_info{
+    display: block !important;
+    height: 350px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+   }
+   .alert_text{
+    display: block!important;
+    /* margin-left: 300px; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .alert_info > img{
+    width: 450px;
+    margin-left: 75px;
+}
+}
+
+
+
 .header_logo{
     display: flex;
     justify-content: space-between;
     margin: 30px;
+    
    
 }
 .Header{
@@ -12,18 +48,22 @@
     width: 60px;
 }
 
-.header_logo >button{
+.login{
     color: #a7aebe;
     background-color: transparent;
     border: none;
-    transition: transform 100ms ease-out;
     cursor: pointer;
+    transition: transform 100ms ;
+    opacity: 0.5;
 }
 
-.header_logo >button:hover{
+.login:hover{
     color: #fff;
-    padding: 10px;
+    padding: 12px;
     transform: scale(1.2);
+    opacity: 1;
+
+    /* transform: scale(0.2); */
     background-color: #353535;
     border-radius: 10px;
 }
@@ -68,7 +108,7 @@
 
 .header_content > button{
     background-color: #00F387;
-    color: #212121;;
+    color: #212121;
     font-weight: bold;
     border: #00F387;
     padding: 20px;
@@ -81,12 +121,16 @@
     width:780px;
     height: 48px;
     margin-top: 30px;
+    cursor: pointer;
+    overflow-y: hidden !important; 
+
+   
 }
 
 .trial{
     margin-top: 25px;
     font-size: 12px;
-    opacity: 0.5;
+    opacity: 0.8;
     font-weight: lighter;
     color: #fff;
     font-family: "Graphik Web",sans-serif;
@@ -102,6 +146,8 @@
     justify-content: space-between;
     align-items: center;
     align-self: center;
+    overflow-y: hidden !important; 
+
 
 }
 
@@ -142,6 +188,7 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .alert_btn > p > a{
     color: #fff;

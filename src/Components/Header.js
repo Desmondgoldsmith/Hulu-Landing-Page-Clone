@@ -11,7 +11,7 @@ function Header() {
     }} >
       <div className='header_logo'>
         <img src='https://raw.githubusercontent.com/bradtraversy/hulu-webpage-clone/main/img/logo.png' alt='hulu logo'/>
-        <button>LOG IN</button>
+        <button className='login'>LOG IN</button>
         
       </div>
    <div className='header_content'>
@@ -38,6 +38,7 @@ function Header() {
      </div>
       
      </div>   
+ 
          </div>
   )
 }
