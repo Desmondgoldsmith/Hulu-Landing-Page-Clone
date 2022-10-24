@@ -26,8 +26,30 @@
    }
 
    .alert_info > img{
-    width: 450px;
-    margin-left: 75px;
+    width: 350px !important;
+    margin-left: 100px;
+}
+}
+
+@media only screen and (max-width: 414px) {
+    .alert_info > img{
+        width: 300px !important;
+        margin-left: -5px!important;
+}
+}
+@media only screen and (max-width: 820px) {
+    .alert_info > img{
+        width: 300px !important;
+        margin-left: 240px!important;
+}
+}
+@media only screen and (max-width: 540px) {
+    .alert_info > img{
+        width: 300px !important;
+        margin-left: 85px!important;
+}
+.header_content > button{
+    width:330px !important;
 }
 }
 
