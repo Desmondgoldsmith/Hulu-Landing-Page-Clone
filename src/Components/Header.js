@@ -25,7 +25,10 @@ function Header() {
         </div>
      <div className='alert_info'>
     <img src='https://www.hulu.com/static/hitch/s3/attachments/ckdthb9le0phf19ym5bdn91yq-dplus-logo-0-1-2.png' alt='alert'/>
-     <h3>BUNDLE WITH ANY HULU PLAN & SAVE</h3>
+      <div className='alert_text'>
+      <h3>BUNDLE WITH ANY HULU PLAN & SAVE</h3>
+     <h2>Get Hulu, Disney+, and ESPN+.</h2>
+      </div>
      </div>   
          </div>
   )

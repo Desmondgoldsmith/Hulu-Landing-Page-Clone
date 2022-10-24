@@ -105,5 +105,21 @@
 .alert_info > img{
     width: 450px;
     align-self: center;
+}
 
+.alert_text> h3{
+    color: #00F387;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 10px;
+
+}
+
+.alert_text >h2{
+    color: #fff;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 25pxpx;
+    font-weight: lighter;
+    margin-left: 10px;
 }
