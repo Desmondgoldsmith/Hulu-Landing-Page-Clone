@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     margin: 30px;
+   
+}
+.Header{
+    border: 1px solid black;
 }
 
 .header_logo >img{
