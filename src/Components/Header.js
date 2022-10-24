@@ -19,7 +19,7 @@ function Header() {
             <h2 className='content_1'>money”</h2>
             <h3 className='content_2'>- CNET</h3>
             <h4 className='content_3'>From current episodes and original series, to kids shows and hit movies,</h4>
-            <h4 className='content_4'>Hulu has something for everyone.</h4>
+            <h4 className='content_4'>and hit movies, Hulu has something for everyone.</h4>
         </div>
          </div>
   )

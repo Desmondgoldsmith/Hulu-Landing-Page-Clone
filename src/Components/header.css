@@ -50,14 +50,18 @@
 
 .header_content > .content_3{
     padding-top: 50px;
-    font-weight: 400;
-    font-size: 22px;
+    font-weight: lighter;
+    font-size: 24px;
     font-family: 'Graphik Web', 'Graphik', sans-serif;
 
 }
 
-.header_content > .content_3{
-    font-weight: 400;
-    font-size: 22px;
+.header_content > .content_4{
+    font-weight: lighter;
+    font-size: 24px;
     font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+
+.content_2{
+    padding-top: 20px;
 }
