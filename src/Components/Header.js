@@ -32,7 +32,9 @@ function Header() {
       </div>
      
      <div className='alert_btn'>
-        
+        <button>GET THE DISNEY BUNDLE</button>
+        <p><a href='#'>Terms apply</a></p>
+
      </div>
       
      </div>   
