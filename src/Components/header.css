@@ -107,12 +107,16 @@
     align-self: center;
 }
 
+.alert_text{
+    margin-left: 40px;
+
+}
+
 .alert_text> h3{
     color: #00F387;
     font-family: "Graphik Web",sans-serif;
     font-size: 14px;
-    font-weight: lighter;
-    margin-left: 10px;
+    font-weight: bold;
 
 }
 
@@ -121,5 +125,10 @@
     font-family: "Graphik Web",sans-serif;
     font-size: 25pxpx;
     font-weight: lighter;
-    margin-left: 10px;
+    margin-top: 10px;
+}
+.alert_text > p > a{
+    color: #fff;
+    opacity: 0.6;
+
 }

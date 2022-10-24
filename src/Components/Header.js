@@ -28,7 +28,13 @@ function Header() {
       <div className='alert_text'>
       <h3>BUNDLE WITH ANY HULU PLAN & SAVE</h3>
      <h2>Get Hulu, Disney+, and ESPN+.</h2>
+     <p><a href='#'>Details</a></p>
       </div>
+     
+     <div className='alert_btn'>
+        
+     </div>
+      
      </div>   
          </div>
   )
