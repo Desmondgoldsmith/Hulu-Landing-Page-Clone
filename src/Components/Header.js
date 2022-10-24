@@ -4,8 +4,8 @@ import './header.css';
 function Header() {
   return (
     <div className = 'Header' style={{
-        backgroundImage: `linear-gradient(rgba(2.9, 0.5, 0.5, 0.5),
-                       rgba(0.8, 0.5, 0, 0.5)), url("https://raw.githubusercontent.com/bradtraversy/hulu-webpage-clone/main/img/header.jpg")`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2),
+                       rgba(0, 0, 0, 0.1)), url("https://raw.githubusercontent.com/bradtraversy/hulu-webpage-clone/main/img/header.jpg")`,
         backgroundPosition: "center center",
         backgroundSize: "cover",
     }} >
@@ -23,6 +23,10 @@ function Header() {
             <button className='free_button'>TRY UP TO ONE MONTH FREE</button>
             <p className='trial'>Free trial offer valid for new and eligible returning subscribers only.</p>
         </div>
+     <div className='alert_info'>
+    <img src='https://www.hulu.com/static/hitch/s3/attachments/ckdthb9le0phf19ym5bdn91yq-dplus-logo-0-1-2.png' alt='alert'/>
+     <h3>BUNDLE WITH ANY HULU PLAN & SAVE</h3>
+     </div>   
          </div>
   )
 }

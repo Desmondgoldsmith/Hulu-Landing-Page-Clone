@@ -86,9 +86,24 @@
 .trial{
     margin-top: 25px;
     font-size: 12px;
-    opacity: 1.8;
-    font-weight: bold;
-    color: #4e4d4d;
+    opacity: 0.5;
+    font-weight: lighter;
+    color: #fff;
     font-family: "Graphik Web",sans-serif;
+
+}
+
+.alert_info{
+    background-color: rgba(0, 0, 0, 0.5); 
+    height : 150px;
+    margin-top: 20px;
+    display: flex;
+    padding: 35px;
+
+}
+
+.alert_info > img{
+    width: 450px;
+    align-self: center;
 
 }
