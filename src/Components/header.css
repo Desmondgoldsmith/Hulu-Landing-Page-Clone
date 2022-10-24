@@ -78,7 +78,17 @@
     line-height: 1;
     letter-spacing: 0.6px;
     border-radius: 4px;
-    /* width:100px; */
+    width:780px;
     height: 48px;
-    /* min-width: 64px; */
+    margin-top: 30px;
+}
+
+.trial{
+    margin-top: 25px;
+    font-size: 12px;
+    opacity: 1.8;
+    font-weight: bold;
+    color: #4e4d4d;
+    font-family: "Graphik Web",sans-serif;
+
 }
