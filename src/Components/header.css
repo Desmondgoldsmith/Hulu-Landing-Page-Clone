@@ -11,3 +11,9 @@
 .header_logo >img{
     width: 60px;
 }
+
+.header_logo >button{
+    color: #a7aebe;
+    background-color: transparent;
+    border: none;
+}
