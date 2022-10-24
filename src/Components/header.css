@@ -16,4 +16,16 @@
     color: #a7aebe;
     background-color: transparent;
     border: none;
+    transition: transform 100ms ease-out;
+    cursor: pointer;
+}
+
+.header_logo >button:hover{
+    color: #fff;
+    padding: 10px;
+    /* transform: scale(1.2); */
+    background-color: #525252;
+    border-radius: 10px;
+
+
 }
