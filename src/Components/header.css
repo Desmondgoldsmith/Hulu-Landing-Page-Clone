@@ -23,9 +23,41 @@
 .header_logo >button:hover{
     color: #fff;
     padding: 10px;
-    /* transform: scale(1.2); */
-    background-color: #525252;
+    transform: scale(1.2);
+    background-color: #353535;
     border-radius: 10px;
+}
 
+.header_content{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+}
 
+.header_content > .content_1{
+   font-size: 50px;
+   font-weight: bold;
+   font-family: 'Graphik Web', 'Graphik', sans-serif;
+   font-size:48px
+}
+
+.header_content > .content_2{
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header_content > .content_3{
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+
+}
+
+.header_content > .content_3{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
 }

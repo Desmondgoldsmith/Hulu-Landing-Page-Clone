@@ -12,8 +12,16 @@ function Header() {
       <div className='header_logo'>
         <img src='https://raw.githubusercontent.com/bradtraversy/hulu-webpage-clone/main/img/logo.png' alt='hulu logo'/>
         <button>LOG IN</button>
+        
       </div>
-    </div>
+   <div className='header_content'>
+            <h2 className='content_1'>“The best value for your</h2>
+            <h2 className='content_1'>money”</h2>
+            <h3 className='content_2'>- CNET</h3>
+            <h4 className='content_3'>From current episodes and original series, to kids shows and hit movies,</h4>
+            <h4 className='content_4'>Hulu has something for everyone.</h4>
+        </div>
+         </div>
   )
 }
 
