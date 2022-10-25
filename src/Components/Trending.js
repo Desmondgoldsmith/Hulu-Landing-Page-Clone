@@ -1,32 +1,19 @@
-import Carousel from "@jjunyjjuny/react-carousel";
-import styled from "styled-components";
+import React from 'react';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import "react-alice-carousel/lib/alice-carousel.css";
+const handleDragStart = (e) => e.preventDefault();
 
-const Container = styled.div`
-  margin: 0 auto;
-  margin-top: 100px;
-  width: 480px;
-`;
-const Item = styled.div`
-  background: #dbe4ff;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 145px;
-  height: 150px;
-  border-radius: 10px;
-`;
+const items = [
+  <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
+  <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
+  <img src="path-to-img" onDragStart={handleDragStart} role="presentation" />,
+];
 
-const sampleArray = [1, 2, 3, 4, 6, 7, 8];
-const CarouselSample = () => {
+const Trending = () => {
   return (
-    <Container>
-      <h2 style={{ textAlign: "center" }}>Sample Carousel</h2>
-      <Carousel itemCountPerPanel={3}>
-        {sampleArray.map((el) => (
-          <Item>{el}</Item>
-        ))}
-      </Carousel>
-    </Container>
+    <AliceCarousel mouseTracking items={items} />
   );
-};
+}
 
-export default CarouselSample;
+export default Trending
